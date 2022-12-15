@@ -1,0 +1,550 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html{
+    font-family: 'IBM Plex Sans';
+
+    font-size: 20px;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    display:flex ;
+    justify-content: space-between;
+   padding: 1.2rem 1.2rem 0 1.2rem;
+align-items: center;
+}
+.logo img{
+width: 3.2rem;
+}
+.cont_f_t_s{
+    display:flex ;
+    justify-content: space-between;
+align-items: center;
+
+font-size: 14px;
+color: #07043B;
+}
+.f_t_s{
+    margin: -8px 0px 0 18px;
+}
+
+
+main {
+    padding: 4rem 28px 4.5rem 28px ;
+}
+.illust img{
+width: 100%;
+padding: 0 0.5rem 0 0.5rem;
+}
+
+
+.about_fylo{
+    padding-top: 2rem;
+    text-align: center;
+}
+ .about_fylo h1{
+
+    font-size: 24px;
+    line-height: 36px;
+ }
+ .about_fylo p{
+
+    padding: 1rem 0.5rem 0 0.5rem;
+    font-size: 14px;
+line-height: 21px;
+color: #07043B;
+
+ }
+
+
+ .email {
+padding: 1.5rem 12px 012px;
+ }
+ .email input{
+width: 100%;
+height: 2rem;
+padding-left: 21px;
+border-radius: 5px;
+border-width: 0.63px;
+
+ }
+
+
+ #started_btn{
+    font-family: 'IBM Plex Sans';
+    width: 100%;
+    height: 2rem;
+   margin-top: 16px;
+   border-radius: 5px;
+   background-color: #2F65F8;
+   border: none;
+font-weight: 590;
+font-size: 16px;
+color: white;
+box-shadow: 0 3px 3px 0 rgba(54, 51, 51, 0.129);
+cursor: pointer;
+transition: 0.3s;
+ }
+
+ #started_btn:hover{
+opacity: 80%;
+ }
+#started_btn:active {
+    opacity: 100%;
+    background-color: #2149b5;
+    box-shadow: 0 3px 10px rgb(145, 142, 142);
+    transform: translateY(4px);
+
+  }
+.main_container{
+    background-color: #F8F8FE;
+padding-bottom: 4rem;
+}
+ .container_background{
+
+    width: 100%;
+ }
+ .container_background img{
+
+    width: 100%;
+    margin-bottom: -0.32rem;
+ }
+.illust2{
+    display: flex;
+    justify-content: center;
+
+
+}
+.illust2 img{
+    margin: 2rem 0 4.4rem 0;
+    width: 88%;
+}
+
+.stay_productive {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.stay_productive h3{
+    font-weight: bold;
+font-size: 16.5px;
+}
+
+.about p{
+    font-style: normal;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+margin: 16px 30px 16px 30px ;
+
+}
+
+.fylo_link{
+display: flex;
+justify-content: center;
+
+margin-top: 1.9rem;
+  color: #3DA08F;
+  font-size: 12px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.fylo_link:hover{
+ filter: brightness(140%) opacity(70%);
+
+}
+.fylo_link:active {
+    filter: brightness(60%) opacity(100%);
+
+
+    transform: translateY(-4px);
+  }
+
+.link img{
+    margin-bottom: -4px;
+}
+
+.link ::after {
+    content: '';
+    position: absolute;
+    width: 6.1rem;
+    height: 1.5px;
+    background-color: #3DA08F;
+    margin: 0.8rem 0 0 -5.45rem;
+  }
+
+.box{
+    padding: 9px 13px 19px 26px;
+    margin: 2rem 2.48rem 0 2.48rem;
+    border-radius: 8px;
+    box-shadow: 1px 2px 25px rgba(128, 128, 128, 0.289);
+ background-color: white;
+}
+.box p{
+font-size: 10px;
+line-height: 18.09px;
+}
+
+.team_member{
+display: flex;
+margin-top: 12px;
+}
+
+.team_member img{
+    margin-right: 5px;
+    align-items:flex-start;
+    border-radius: 4rem;
+    width: 24px;
+}
+.team_member h2{
+    font-size: 9px;
+}
+
+
+.team_member p{
+    margin-top: -3px;
+    font-size: 6px;
+
+}
+
+
+.sign_up {
+    background-color: #575988;
+   text-align: center;
+   padding: 54px 48px 71px 48px;
+}
+.sign_up h6{
+    font-size:18px;
+    color: white;
+    font-weight: 500;
+}
+.sign_up p{
+    font-family: 'Open Sans';
+
+    font-size: 14px;
+line-height: 21px;
+color: white;
+margin-top: 12px;
+}
+#sign_up_btn{
+
+    font-family: 'IBM Plex Sans';
+    width: 100%;
+    height: 2rem;
+   margin-top: 16px;
+   border-radius: 5px;
+   background-color: #2F65F8;
+   border: none;
+font-weight: 590;
+font-size: 10px;;
+color: white;
+box-shadow: 0 3px 3px 0 rgba(54, 51, 51, 0.129);
+cursor: pointer;
+transition: 0.3s;
+ }
+
+#sign_up_btn:hover{
+opacity: 80%;
+ }
+#sign_up_btn:active {
+    opacity: 100%;
+    background-color: #2149b5;
+    box-shadow: 0 3px 10px rgb(145, 142, 142);
+    transform: translateY(4px);
+
+}
+.sign_up input{
+    padding-left: 12px;
+    font-size: 10px;
+    box-shadow: 0 3px 3px 0 rgba(54, 51, 51, 0.129);
+border: none;
+border-radius: 6px;
+height: 2rem;
+width: 100%;
+margin-top: 1.5rem;
+}
+.sign_up ::placeholder { 
+ color: #C0C0C0;
+  }
+
+footer{
+background-color: #07043B;
+padding: 65px 39px 42px 39px;
+  }
+
+.white_logo{
+
+width: 5rem;
+}
+
+.contact span{
+    color: white;
+    font-size: 16px;
+
+  }
+
+  .contact{
+display: flex;
+margin-top: 1.3rem;
+
+  }
+.contact2{
+    margin-top: 0.6rem;
+}
+.contact img{
+    width: 16px;
+margin: 3px 19px 0 0;
+  }
+
+.contact2 img{
+height: 12px;
+margin-top: 6px;
+}
+
+.about_company{
+margin-top: 1rem;
+}
+.about_company a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+color: white;
+font-size: 16px;
+
+}
+.about_company section{
+    margin-top: 8px;
+}
+.about_company a:hover{
+    color: #6C9BFF;
+    ;
+}
+.terms{
+    margin-top: 1.2rem;
+}
+
+
+.social_logoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.logoes_border:hover{
+
+    filter: invert(50%) sepia(80%) saturate(1400%) hue-rotate(200deg)  ;
+}
+.social_logoes img{
+    width:18px;
+}
+.logoes_border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid white;
+        border-radius: 4rem;
+    height: 1.4rem ;
+    width: 1.4rem;
+    margin: 10px;
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+
+html{
+ justify-content: center;
+ display: flex;
+}
+
+header, main{
+
+    padding: 3% 5.5% 0 5.5%;
+}
+
+.logo img{
+    width: 6rem;
+    }
+    .cont_f_t_s{
+    font-size: 16px;
+    }
+    .f_t_s{
+        margin: -8px 0px 0 25px;
+    }
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+
+padding-bottom: 8%;
+  }
+
+
+  #container {
+    margin-top: 5%;
+
+    justify-content: left;
+    min-width: 58%;
+  }
+  #container h1{
+    font-size: 2em;
+    line-height: 3rem;
+    text-align: left;
+  }
+
+#container p{
+    font-size: 17px;
+line-height: 21px;
+text-align: left;
+
+}
+
+.email{
+
+width: 32rem;
+
+
+}
+
+.email input {
+
+  width: 17rem;
+
+}
+#started_btn{
+
+   width: 9rem;
+margin-left: 0.5rem;
+}
+
+
+.container_background img{
+  height: 6rem;
+
+ }
+.main_container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    justify-content: left;
+       padding: 2rem 0 4rem 4rem;
+
+}
+.illust2 img{
+    width: 70%;
+}
+
+.main_container h3{
+    letter-spacing: 1px;
+font-size: 2em;
+text-align: left;
+}
+.main_container p {
+    margin-top: 1.5rem;
+    width: 80%;
+    text-align: left;
+  margin-left: 0;
+
+}
+
+
+.fylo_link {
+justify-content: left;
+
+}
+.link a{
+    font-size: 16px;
+}
+.link img{
+   width: 0.9rem;
+}
+.link ::after {
+    content: '';
+    position: absolute;
+    width: 8.15rem;
+    height: 1.5px;
+    background-color: #3DA08F;
+    margin: 1.18rem 0 0 -7.3rem;
+  }
+.box{
+    margin-left: 0;
+    width: 50%;
+
+}
+.box p{
+font-size: 13px;
+}
+.team_member img{
+    width: 30px;
+}
+.team_member h2{
+    font-size: 11px;
+    letter-spacing: 0.3px;
+}
+.team_member p{
+
+    font-size: 8px;
+    margin-top: -1px;
+    width: 300%;
+}
+
+.sign_up {
+display: flex;
+justify-content: space-between;
+padding: 54px 6rem 71px 4.5rem;
+
+}
+.sign_in{
+    max-width: 50%;
+    text-align: left;
+
+}
+.sign_in h6{
+    font-size: 38px;
+    line-height: 80px;
+}
+.sign_in p{
+    font-size: 16px;
+
+}
+
+
+.sign_up input{
+    width: 22rem;
+    margin-left: 5rem;
+    border-radius: 6px;
+}
+.check2{
+    margin-top: -0.5rem;
+    margin-left:-12rem ;
+}
+#sign_up_btn{
+    width: 10rem;
+    margin-right: 7rem;
+    margin-top: 1rem;
+}
+
+
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 15rem 3rem 4.6rem;
+}
+.contact_info{
+    margin-top: -1.5rem;
+}
+
+}
